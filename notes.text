@@ -1,0 +1,10 @@
+in the backend folder
+Run backend:
+Write the below in terminal:
+node server.js
+
+Backend running on http://localhost:5000
+
+In Front end folder:
+npm run dev
+  ➜  Local:   http://localhost:5173/
