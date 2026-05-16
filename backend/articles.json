@@ -1,100 +1,5 @@
 [
   {
-    "id": 1778824665846,
-    "title": "AUTH_401 - User Not Authorized to Access Module",
-    "category": "System Access Issue",
-    "rawText": "Error Code: AUTH_401\r\nUser not authorized to access module.\r\nResolution:\r\n- Check AD group access\r\n- User must be in OPS_FWD_ROLE\r\n- Logout and login again",
-    "symptoms": [
-      "User cannot access the required system module.",
-      "System displays AUTH_401 or unauthorized access error."
-    ],
-    "steps": [
-      "Check the user's AD group access.",
-      "Confirm the user is assigned to OPS_FWD_ROLE.",
-      "Ask the user to logout and login again.",
-      "Retry accessing the module."
-    ],
-    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
-    "createdAt": "2026-05-15T05:57:45.846Z",
-    "history": [
-      {
-        "status": "Reviewed",
-        "updatedBy": "Editor",
-        "updatedAt": "2026-05-16T06:12:59.067Z"
-      }
-    ],
-    "status": "Reviewed",
-    "updatedAt": "2026-05-16T06:12:59.067Z"
-  },
-  {
-    "id": 1778824881173,
-    "title": "POD Upload Failed Due to Large File Size",
-    "category": "Document Upload Issue",
-    "rawText": "POD upload failed again\r\nError msg: File size too large\r\nJust compress the image before uploading.\r\nJPEG works better than PNG.\r\nAfter upload, refresh screen twice.",
-    "symptoms": [
-      "POD upload fails.",
-      "System shows file size too large."
-    ],
-    "steps": [
-      "Compress the POD image before uploading.",
-      "Use JPEG format instead of PNG.",
-      "Upload the compressed file.",
-      "Refresh the screen twice after upload."
-    ],
-    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
-    "createdAt": "2026-05-15T06:01:21.173Z",
-    "history": [
-      {
-        "status": "Published",
-        "updatedBy": "Editor",
-        "updatedAt": "2026-05-16T06:13:06.876Z"
-      },
-      {
-        "status": "Reviewed",
-        "updatedBy": "Editor",
-        "updatedAt": "2026-05-16T06:13:08.188Z"
-      }
-    ],
-    "status": "Reviewed",
-    "updatedAt": "2026-05-16T06:13:08.188Z"
-  },
-  {
-    "id": 1778824910904,
-    "title": "General SOP Article",
-    "category": "General Knowledge Base",
-    "rawText": "",
-    "symptoms": [
-      "Raw operational information received from chat, email, document, or screenshot."
-    ],
-    "steps": [
-      "Review the raw information.",
-      "Identify the main issue.",
-      "Extract the resolution steps.",
-      "Validate the steps with the responsible team.",
-      "Save as a standardized knowledge article."
-    ],
-    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
-    "createdAt": "2026-05-15T06:01:50.904Z"
-  },
-  {
-    "id": 1778842199463,
-    "title": "Customer Address Invalid Due to Missing Postcode",
-    "category": "Booking Validation Issue",
-    "rawText": "Customer address invalid.\r\nTeam chat says postcode missing.\r\nFix:\r\nAdd postcode manually,\r\nRevalidate address,\r\nSave and continue booking.",
-    "symptoms": [
-      "Customer address validation fails.",
-      "Postcode is missing or incorrect."
-    ],
-    "steps": [
-      "Add the postcode manually.",
-      "Revalidate the customer address.",
-      "Save the updated address.",
-      "Continue the booking process."
-    ],
-    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
-    "createdAt": "2026-05-15T10:49:59.463Z"
-  },
-  {
     "id": 1778905818109,
     "title": "Customer Address Invalid Due to Missing Postcode",
     "category": "Booking Validation Issue",
@@ -159,5 +64,39 @@
     ],
     "createdAt": "2026-05-16T04:31:13.713Z",
     "updatedAt": "2026-05-16T04:31:13.713Z"
+  },
+  {
+    "id": 1778920373805,
+    "title": "New Staff System Access Setup",
+    "category": "User Onboarding",
+    "tags": [
+      "new staff",
+      "AD account",
+      "SAP"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "New staff setup steps:\r\n✔ Create AD account\r\n✔ Give email access\r\n✔ SAP + CW1 role\r\n✔ Share SOP folder\r\nDelay usually because SAP request not approved",
+    "symptoms": [
+      "New staff cannot access required systems.",
+      "SAP or email access is not ready."
+    ],
+    "steps": [
+      "Create AD account.",
+      "Provide email access.",
+      "Assign SAP and CW1 role.",
+      "Share SOP folder access.",
+      "Follow up if SAP request approval is delayed."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-16T08:32:53.805Z"
+      }
+    ],
+    "createdAt": "2026-05-16T08:32:53.805Z",
+    "updatedAt": "2026-05-16T08:32:53.805Z"
   }
 ]

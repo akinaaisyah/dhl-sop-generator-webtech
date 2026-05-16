@@ -195,3 +195,18 @@ button:hover {
 .history-item:hover {
   background: #fff3b0;
 }
+
+.delete-btn {
+  margin-top: 12px;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #d40511;
+}

@@ -72,6 +72,18 @@ function App() {
   fetchArticles();
 };
 
+const deleteArticle = async (id) => {
+  const confirmDelete = window.confirm(
+    "Are you sure you want to delete this article?"
+  );
+
+  if (!confirmDelete) return;
+
+  await axios.delete(`http://localhost:5000/api/articles/${id}`);
+
+  await fetchArticles();
+};
+
   const filteredArticles = articles.filter((item) => {
     const keyword = search.toLowerCase();
 
@@ -217,6 +229,13 @@ function App() {
             </div>
 
             {item.tags && <p>Tags: {item.tags.join(", ")}</p>}
+
+            <button
+              className="delete-btn"
+              onClick={() => deleteArticle(item.id)}
+            >
+              Delete Article
+            </button>
           </div>
         ))}
       </div>
