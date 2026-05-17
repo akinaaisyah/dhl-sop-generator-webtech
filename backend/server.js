@@ -27,16 +27,9 @@ function writeArticles(articles) {
 function saveArticle(article) {
   const articles = readArticles();
 
-  const alreadyExists = articles.some(
-    (item) =>
-      item.title === article.title &&
-      item.rawText.trim() === article.rawText.trim()
-  );
+  articles.push(article);
 
-  if (!alreadyExists) {
-    articles.push(article);
-    writeArticles(articles);
-  }
+  writeArticles(articles);
 
   return article;
 }

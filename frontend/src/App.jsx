@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 import logo from "./assets/DHL-Logo-PNG-Images-HD.png";
 
+
 function App() {
   const [text, setText] = useState("");
   const [file, setFile] = useState(null);
@@ -11,6 +12,7 @@ function App() {
   const [search, setSearch] = useState("");
   const [searchHistory, setSearchHistory] = useState([]);
   const [showHistory, setShowHistory] = useState(false);
+  const [sortOption, setSortOption] = useState("recent");
 
   const fetchArticles = async () => {
     const res = await axios.get("http://localhost:5000/api/articles");
@@ -22,20 +24,39 @@ function App() {
   }, []);
 
   const generateSOP = async () => {
-    const formData = new FormData();
+  // validation
+  if (!file && !text.trim()) {
+    alert("No file uploaded or text entered.");
+    return;
+  }
 
-    if (file) {
-      formData.append("file", file);
-    } else {
-      formData.append("text", text);
-    }
+  const formData = new FormData();
 
-    const res = await axios.post("http://localhost:5000/api/generate", formData);
+  if (file) {
+    formData.append("file", file);
+  } else {
+    formData.append("text", text);
+  }
+
+  try {
+    const res = await axios.post(
+      "http://localhost:5000/api/generate",
+      formData
+    );
 
     setArticle(res.data);
-    await fetchArticles();
+
+    // refresh articles
+    fetchArticles();
+
+    // clear search
     setSearch("");
-  };
+
+  } catch (error) {
+    console.error(error);
+    alert("Failed to generate SOP.");
+  }
+};
 
   const handleSearchChange = (value) => {
     setSearch(value);
@@ -84,7 +105,8 @@ const deleteArticle = async (id) => {
   await fetchArticles();
 };
 
-  const filteredArticles = articles.filter((item) => {
+  const filteredArticles = articles
+  .filter((item) => {
     const keyword = search.toLowerCase();
 
     return (
@@ -93,6 +115,13 @@ const deleteArticle = async (id) => {
       (item.tags && item.tags.join(" ").toLowerCase().includes(keyword)) ||
       (item.status && item.status.toLowerCase().includes(keyword))
     );
+  })
+  .sort((a, b) => {
+    if (sortOption === "alphabetical") {
+      return a.title.localeCompare(b.title);
+    }
+
+    return new Date(b.createdAt) - new Date(a.createdAt);
   });
 
   return (
@@ -204,6 +233,18 @@ const deleteArticle = async (id) => {
               ))}
             </div>
           )}
+        </div>
+
+        <div className="sort-row">
+          <label>Sort by: </label>
+
+          <select
+            value={sortOption}
+            onChange={(e) => setSortOption(e.target.value)}
+          >
+            <option value="recent">Recent Upload</option>
+            <option value="alphabetical">Alphabetical A-Z</option>
+          </select>
         </div>
 
         <div className="article-list">

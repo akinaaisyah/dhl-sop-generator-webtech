@@ -98,5 +98,204 @@
     ],
     "createdAt": "2026-05-16T08:32:53.805Z",
     "updatedAt": "2026-05-16T08:32:53.805Z"
+  },
+  {
+    "id": 1778989236991,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Customer address invalid.\r\nTeam chat says postcode missing.\r\nFix:\r\nAdd postcode manually,\r\nRevalidate address,\r\nSave and continue booking.",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:40:36.991Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:40:36.991Z",
+    "updatedAt": "2026-05-17T03:40:36.991Z"
+  },
+  {
+    "id": 1778989407384,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Customer address invalid.\r\nTeam chat says postcode missing.\r\nFix:\r\nAdd postcode manually,\r\nRevalidate address,\r\nSave and continue booking.",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:43:27.384Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:43:27.384Z",
+    "updatedAt": "2026-05-17T03:43:27.384Z"
+  },
+  {
+    "id": 1778989457906,
+    "title": "AUTH_401 - User Not Authorized to Access Module",
+    "category": "System Access Issue",
+    "tags": [
+      "AUTH_401",
+      "access",
+      "AD group"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Error Code: AUTH_401\r\nUser not authorized to access module.\r\nResolution:\r\n- Check AD group access\r\n- User must be in OPS_FWD_ROLE\r\n- Logout and login again",
+    "symptoms": [
+      "User cannot access the required system module.",
+      "System displays AUTH_401 or unauthorized access error."
+    ],
+    "steps": [
+      "Check the user's AD group access.",
+      "Confirm the user is assigned to OPS_FWD_ROLE.",
+      "Ask the user to logout and login again.",
+      "Retry accessing the module."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:44:17.906Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:44:17.906Z",
+    "updatedAt": "2026-05-17T03:44:17.906Z"
+  },
+  {
+    "id": 1778989554144,
+    "title": "Label Not Printing Properly",
+    "category": "Printer Issue",
+    "tags": [
+      "label",
+      "printer",
+      "toner"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Label not printing properly.\r\nUsually printer cache issue.\r\nRestart printer service,\r\nClear queue,\r\nReprint label.\r\nIf still blur, change toner.",
+    "symptoms": [
+      "Shipping label does not print correctly.",
+      "Printed label is blurred or incomplete."
+    ],
+    "steps": [
+      "Restart the printer service.",
+      "Clear the printer queue.",
+      "Reprint the label.",
+      "If the label is still blurred, replace the toner."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:45:54.144Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:45:54.144Z",
+    "updatedAt": "2026-05-17T03:45:54.144Z"
+  },
+  {
+    "id": 1778990066129,
+    "title": "New Staff System Access Setup",
+    "category": "User Onboarding",
+    "tags": [
+      "new staff",
+      "AD account",
+      "SAP"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "New staff setup steps:\r\n✔ Create AD account\r\n✔ Give email access\r\n✔ SAP + CW1 role\r\n✔ Share SOP folder\r\nDelay usually because SAP request not approved",
+    "symptoms": [
+      "New staff cannot access required systems.",
+      "SAP or email access is not ready."
+    ],
+    "steps": [
+      "Create AD account.",
+      "Provide email access.",
+      "Assign SAP and CW1 role.",
+      "Share SOP folder access.",
+      "Follow up if SAP request approval is delayed."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:54:26.129Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:54:26.129Z",
+    "updatedAt": "2026-05-17T03:54:26.129Z"
+  },
+  {
+    "id": 1778990118896,
+    "title": "POD Upload Failed Due to Large File Size",
+    "category": "Document Upload Issue",
+    "tags": [
+      "POD",
+      "upload",
+      "file size"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "POD upload failed again 😓\r\nError msg: “File size too large”\r\nJust compress the image before uploading.\r\nJPEG works better than PNG.\r\nAfter upload, refresh screen twice.",
+    "symptoms": [
+      "POD upload fails.",
+      "System shows file size too large."
+    ],
+    "steps": [
+      "Compress the POD image before uploading.",
+      "Use JPEG format instead of PNG.",
+      "Upload the compressed file.",
+      "Refresh the screen twice after upload."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:55:18.896Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:55:18.896Z",
+    "updatedAt": "2026-05-17T03:55:18.896Z"
   }
 ]
