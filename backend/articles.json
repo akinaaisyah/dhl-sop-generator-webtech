@@ -1,38 +1,5 @@
 [
   {
-    "id": 1778905818109,
-    "title": "Customer Address Invalid Due to Missing Postcode",
-    "category": "Booking Validation Issue",
-    "tags": [
-      "address",
-      "postcode",
-      "booking"
-    ],
-    "creator": "Editor",
-    "status": "Draft",
-    "rawText": "\n\nCustomer Credit Approval and New Customer Onboarding Process \nDocument Status: Draft (Unstandardized) \nBusiness Unit: DHL Logistics Operations \nProcess Owner: Operations & Finance \nLast Updated: Not maintained consistently \n \n1. Purpose \nThe purpose of this Standard Operating Procedure (SOP) is to document the end-to-end \nprocess for new customer onboarding with credit approval in DHL Logistics Operations. \nThis SOP aims to explain how new customers are set up in operational and financial \nsystems, how credit checks are conducted, and how approvals or rejections are handled. \nCurrently, this process is handled through a mix of emails, spreadsheets, informal \ninstructions, and experience-based knowledge. This document consolidates existing \npractices but has not been fully standardized. The intention is to later refine this SOP into a \nclean and official knowledge article. \n \n2. Scope \nThis SOP applies to: \n• Operations teams \n• Customer Service teams \n• Finance and Credit Control teams \n• Supervisors and Managers involved in customer onboarding \nThis SOP covers: \n• New customer request intake \n• Credit evaluation and approval \n• System setup \n• Communication with stakeholders \nIt does not cover customer contract negotiation or legal agreement signing. \n \n\n3. Definitions and Abbreviations \n• CRM – Customer Relationship Management system \n• SAP – Enterprise Resource Planning system used for billing and finance \n• Credit Limit – Maximum allowed outstanding amount for a customer \n• Cash Customer – Customer required to prepay before shipment \n• Credit Customer – Customer allowed to ship and pay later based on approved \ncredit terms \n \n4. Roles and Responsibilities \n4.1 Sales Team \n• Submit new customer onboarding request \n• Provide complete customer information \n• Support clarifications during credit review \n4.2 Operations Team \n• Validate onboarding request completeness \n• Coordinate with Finance for system setup \n• Ensure customer is ready for operational use \n4.3 Finance / Credit Control Team \n• Perform credit checks \n• Approve or reject credit requests \n• Set credit terms and limits in SAP \n4.4 Management \n• Approve exceptional cases \n• Resolve escalations and delays \n \n5. Process Overview \n\nThe new customer onboarding and credit approval process consists of the following high-\nlevel steps: \n1. New customer request received \n2. Initial validation of request \n3. Credit evaluation \n4. Approval or rejection decision \n5. System setup \n6. Confirmation to stakeholders \nDelays frequently occur due to incomplete information, unclear ownership, or delayed \napprovals. \n \n6. Detailed Process Steps \n \n6.1 New Customer Request Submission \nNew customer onboarding requests are typically initiated by the Sales team. Requests are \nsubmitted through email or shared templates. There is no single standardized form \ncurrently used across all regions. \nMinimum information required includes: \n• Legal company name \n• Company registration number \n• Billing address \n• Operational address (if different) \n• Estimated monthly volume \n• Requested credit limit \n• Requested payment terms (e.g., 30 days) \nSome requests arrive with missing or inconsistent information, which causes delays. \n \n\n6.2 Initial Validation by Operations \nUpon receiving the request, Operations performs a basic validation to ensure that all \nrequired information is provided. This step is usually done manually by checking emails \nand attachments. \nCommon issues found during this stage: \n• Missing registration documents \n• Incomplete billing address \n• No estimated shipment volume provided \n• Unclear payment terms \nWhen information is missing, Operations contacts Sales for clarification. This back-and-\nforth often happens over multiple emails. \n \n6.3 Credit Evaluation by Finance \nOnce the request is validated, it is forwarded to the Finance or Credit Control team for \nevaluation. The credit evaluation process may include: \n• Internal credit history check (if existing customer in other countries) \n• External credit bureau checks \n• Assessment of requested credit limit versus shipment volume \n• Review of financial documents \nBased on the evaluation, Finance decides whether the customer should be: \n• Approved as a credit customer \n• Approved with a lower credit limit \n• Approved as cash-only \n• Rejected \nThis decision-making process is not always documented clearly. \n \n6.4 Approval Scenarios \n\n6.4.1 Credit Approved as Requested \nIf the credit request is approved: \n• Finance confirms the approved credit limit and payment terms \n• Details are shared with Operations \n• System setup can begin \n6.4.2 Credit Approved with Conditions \nSometimes credit is approved with conditions such as: \n• Reduced credit limit \n• Shorter payment terms \n• Partial prepaid requirement \nThese conditions are communicated via email but not always captured in a structured \nformat. \n6.4.3 Credit Rejected \nIf credit is rejected: \n• Customer may be offered cash-only terms \n• Sales is informed to manage customer expectations \n• Request may be closed or reworked \n \n6.5 System Setup \nAfter credit approval, the Operations and Finance teams proceed with system setup. \nTypical system activities include: \n• Creating customer record in CRM \n• Creating customer master data in SAP \n• Assigning billing and operational roles \n• Configuring tax and invoicing parameters \nSystem setup errors are common due to manual data entry. \n\n \n6.6 Common System Setup Issues \nFrequently observed issues include: \n• Duplicate customer records \n• Incorrect billing currency \n• Wrong tax code assigned \n• Credit limit mismatch between email approval and SAP setup \nWhen issues occur, tickets are raised to IT or Finance, causing delays. \n \n6.7 Confirmation to Stakeholders \nOnce setup is completed: \n• Operations confirms readiness for shipment processing \n• Sales is informed that the customer is live \n• Finance monitors the first few invoices closely \nThere is no standardized checklist to confirm all steps are completed before go-live. \n \n7. Exception Handling and Escalations \n7.1 Delayed Credit Approval \nIf credit approval takes more than 5 working days: \n• Operations escalates to Finance Manager \n• Sales may request temporary cash terms to start operations \n \n7.2 Urgent Customer Go-Live Requests \nIn some cases, urgent onboarding is required. Temporary workarounds include: \n• Cash-only setup \n• Manual billing \n\n• Later credit conversion \nThese practices increase operational risk. \n \n8. Risks and Known Gaps \nThe following issues have been identified: \n• Heavy manual processing \n• Lack of standardized forms \n• No centralized tracking \n• Dependency on email communication \n• Limited audit trail \nNew joiners often struggle to understand the process due to lack of clear documentation. \n \n9. Compliance and Audit Considerations \nImproper customer setup can lead to: \n• Revenue leakage \n• Bad debt exposure \n• Compliance violations \n• Audit findings \nFinance periodically reviews customer credit exposure, but corrections are reactive rather \nthan preventive. \n \n10. Training and Knowledge Sharing \nCurrently, training is conducted informally through: \n• Shadowing experienced staff \n• Email instructions \n• Chat-based guidance \n\nThis SOP is intended to evolve into a proper training reference. \n \n11. Summary \nThis SOP documents the current-state process for customer credit approval and \nonboarding. While it captures real operational practices, it lacks standardization, structure, \nand automation. The content should be transformed into a cleaner SOP, simplified \nchecklist, and searchable Knowledge Base articles. \n ",
-    "symptoms": [
-      "Customer address validation fails.",
-      "Postcode is missing or incorrect."
-    ],
-    "steps": [
-      "Add the postcode manually.",
-      "Revalidate the customer address.",
-      "Save the updated address.",
-      "Continue the booking process."
-    ],
-    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
-    "history": [
-      {
-        "status": "Draft",
-        "updatedBy": "Editor",
-        "updatedAt": "2026-05-16T04:30:18.109Z"
-      }
-    ],
-    "createdAt": "2026-05-16T04:30:18.110Z",
-    "updatedAt": "2026-05-16T04:30:18.110Z"
-  },
-  {
     "id": 1778905873713,
     "title": "Label Not Printing Properly",
     "category": "Printer Issue",
@@ -42,7 +9,7 @@
       "toner"
     ],
     "creator": "Editor",
-    "status": "Draft",
+    "status": "Published",
     "rawText": "Label not printing properly.\r\nUsually printer cache issue.\r\nRestart printer service,\r\nClear queue,\r\nReprint label.\r\nIf still blur, change toner.",
     "symptoms": [
       "Shipping label does not print correctly.",
@@ -60,10 +27,15 @@
         "status": "Draft",
         "updatedBy": "Editor",
         "updatedAt": "2026-05-16T04:31:13.713Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:16.152Z"
       }
     ],
     "createdAt": "2026-05-16T04:31:13.713Z",
-    "updatedAt": "2026-05-16T04:31:13.713Z"
+    "updatedAt": "2026-05-17T09:58:16.152Z"
   },
   {
     "id": 1778920373805,
@@ -75,7 +47,7 @@
       "SAP"
     ],
     "creator": "Editor",
-    "status": "Draft",
+    "status": "Published",
     "rawText": "New staff setup steps:\r\n✔ Create AD account\r\n✔ Give email access\r\n✔ SAP + CW1 role\r\n✔ Share SOP folder\r\nDelay usually because SAP request not approved",
     "symptoms": [
       "New staff cannot access required systems.",
@@ -94,10 +66,15 @@
         "status": "Draft",
         "updatedBy": "Editor",
         "updatedAt": "2026-05-16T08:32:53.805Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:14.356Z"
       }
     ],
     "createdAt": "2026-05-16T08:32:53.805Z",
-    "updatedAt": "2026-05-16T08:32:53.805Z"
+    "updatedAt": "2026-05-17T09:58:14.356Z"
   },
   {
     "id": 1778989236991,
@@ -109,7 +86,7 @@
       "booking"
     ],
     "creator": "Editor",
-    "status": "Draft",
+    "status": "Published",
     "rawText": "Customer address invalid.\r\nTeam chat says postcode missing.\r\nFix:\r\nAdd postcode manually,\r\nRevalidate address,\r\nSave and continue booking.",
     "symptoms": [
       "Customer address validation fails.",
@@ -127,10 +104,15 @@
         "status": "Draft",
         "updatedBy": "Editor",
         "updatedAt": "2026-05-17T03:40:36.991Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:12.656Z"
       }
     ],
     "createdAt": "2026-05-17T03:40:36.991Z",
-    "updatedAt": "2026-05-17T03:40:36.991Z"
+    "updatedAt": "2026-05-17T09:58:12.656Z"
   },
   {
     "id": 1778989407384,
@@ -142,7 +124,7 @@
       "booking"
     ],
     "creator": "Editor",
-    "status": "Draft",
+    "status": "Published",
     "rawText": "Customer address invalid.\r\nTeam chat says postcode missing.\r\nFix:\r\nAdd postcode manually,\r\nRevalidate address,\r\nSave and continue booking.",
     "symptoms": [
       "Customer address validation fails.",
@@ -160,10 +142,15 @@
         "status": "Draft",
         "updatedBy": "Editor",
         "updatedAt": "2026-05-17T03:43:27.384Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:11.104Z"
       }
     ],
     "createdAt": "2026-05-17T03:43:27.384Z",
-    "updatedAt": "2026-05-17T03:43:27.384Z"
+    "updatedAt": "2026-05-17T09:58:11.104Z"
   },
   {
     "id": 1778989457906,
@@ -193,10 +180,25 @@
         "status": "Draft",
         "updatedBy": "Editor",
         "updatedAt": "2026-05-17T03:44:17.906Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:09.810Z"
+      },
+      {
+        "status": "Reviewed",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T14:43:43.173Z"
+      },
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T14:43:44.358Z"
       }
     ],
     "createdAt": "2026-05-17T03:44:17.906Z",
-    "updatedAt": "2026-05-17T03:44:17.906Z"
+    "updatedAt": "2026-05-17T14:43:44.358Z"
   },
   {
     "id": 1778989554144,
@@ -208,7 +210,7 @@
       "toner"
     ],
     "creator": "Editor",
-    "status": "Draft",
+    "status": "Published",
     "rawText": "Label not printing properly.\r\nUsually printer cache issue.\r\nRestart printer service,\r\nClear queue,\r\nReprint label.\r\nIf still blur, change toner.",
     "symptoms": [
       "Shipping label does not print correctly.",
@@ -226,13 +228,369 @@
         "status": "Draft",
         "updatedBy": "Editor",
         "updatedAt": "2026-05-17T03:45:54.144Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:07.939Z"
       }
     ],
     "createdAt": "2026-05-17T03:45:54.144Z",
-    "updatedAt": "2026-05-17T03:45:54.144Z"
+    "updatedAt": "2026-05-17T09:58:07.939Z"
   },
   {
     "id": 1778990066129,
+    "title": "New Staff System Access Setup",
+    "category": "User Onboarding",
+    "tags": [
+      "new staff",
+      "AD account",
+      "SAP"
+    ],
+    "creator": "Editor",
+    "status": "Published",
+    "rawText": "New staff setup steps:\r\n✔ Create AD account\r\n✔ Give email access\r\n✔ SAP + CW1 role\r\n✔ Share SOP folder\r\nDelay usually because SAP request not approved",
+    "symptoms": [
+      "New staff cannot access required systems.",
+      "SAP or email access is not ready."
+    ],
+    "steps": [
+      "Create AD account.",
+      "Provide email access.",
+      "Assign SAP and CW1 role.",
+      "Share SOP folder access.",
+      "Follow up if SAP request approval is delayed."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:54:26.129Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:06.279Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:54:26.129Z",
+    "updatedAt": "2026-05-17T09:58:06.279Z"
+  },
+  {
+    "id": 1778990118896,
+    "title": "POD Upload Failed Due to Large File Size",
+    "category": "Document Upload Issue",
+    "tags": [
+      "POD",
+      "upload",
+      "file size"
+    ],
+    "creator": "Editor",
+    "status": "Published",
+    "rawText": "POD upload failed again 😓\r\nError msg: “File size too large”\r\nJust compress the image before uploading.\r\nJPEG works better than PNG.\r\nAfter upload, refresh screen twice.",
+    "symptoms": [
+      "POD upload fails.",
+      "System shows file size too large."
+    ],
+    "steps": [
+      "Compress the POD image before uploading.",
+      "Use JPEG format instead of PNG.",
+      "Upload the compressed file.",
+      "Refresh the screen twice after upload."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T03:55:18.896Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:58:04.750Z"
+      }
+    ],
+    "createdAt": "2026-05-17T03:55:18.896Z",
+    "updatedAt": "2026-05-17T09:58:04.750Z"
+  },
+  {
+    "id": 1779011940915,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Customer Credit Approval and New Customer Onboarding Process\n\nDocument Status: Draft (Unstandardized)Business Unit: DHL Logistics OperationsProcess Owner: Operations & FinanceLast Updated: Not maintained consistently\n\n\n\n1. Purpose\n\nThe purpose of this Standard Operating Procedure (SOP) is to document the end-to-end process for new customer onboarding with credit approval in DHL Logistics Operations. This SOP aims to explain how new customers are set up in operational and financial systems, how credit checks are conducted, and how approvals or rejections are handled.\n\nCurrently, this process is handled through a mix of emails, spreadsheets, informal instructions, and experience-based knowledge. This document consolidates existing practices but has not been fully standardized. The intention is to later refine this SOP into a clean and official knowledge article.\n\n\n\n2. Scope\n\nThis SOP applies to:\n\nOperations teams\n\nCustomer Service teams\n\nFinance and Credit Control teams\n\nSupervisors and Managers involved in customer onboarding\n\nThis SOP covers:\n\nNew customer request intake\n\nCredit evaluation and approval\n\nSystem setup\n\nCommunication with stakeholders\n\nIt does not cover customer contract negotiation or legal agreement signing.\n\n\n\n3. Definitions and Abbreviations\n\nCRM – Customer Relationship Management system\n\nSAP – Enterprise Resource Planning system used for billing and finance\n\nCredit Limit – Maximum allowed outstanding amount for a customer\n\nCash Customer – Customer required to prepay before shipment\n\nCredit Customer – Customer allowed to ship and pay later based on approved credit terms\n\n\n\n4. Roles and Responsibilities\n\n4.1 Sales Team\n\nSubmit new customer onboarding request\n\nProvide complete customer information\n\nSupport clarifications during credit review\n\n4.2 Operations Team\n\nValidate onboarding request completeness\n\nCoordinate with Finance for system setup\n\nEnsure customer is ready for operational use\n\n4.3 Finance / Credit Control Team\n\nPerform credit checks\n\nApprove or reject credit requests\n\nSet credit terms and limits in SAP\n\n4.4 Management\n\nApprove exceptional cases\n\nResolve escalations and delays\n\n\n\n5. Process Overview\n\nThe new customer onboarding and credit approval process consists of the following high-level steps:\n\nNew customer request received\n\nInitial validation of request\n\nCredit evaluation\n\nApproval or rejection decision\n\nSystem setup\n\nConfirmation to stakeholders\n\nDelays frequently occur due to incomplete information, unclear ownership, or delayed approvals.\n\n\n\n6. Detailed Process Steps\n\n\n\n6.1 New Customer Request Submission\n\nNew customer onboarding requests are typically initiated by the Sales team. Requests are submitted through email or shared templates. There is no single standardized form currently used across all regions.\n\nMinimum information required includes:\n\nLegal company name\n\nCompany registration number\n\nBilling address\n\nOperational address (if different)\n\nEstimated monthly volume\n\nRequested credit limit\n\nRequested payment terms (e.g., 30 days)\n\nSome requests arrive with missing or inconsistent information, which causes delays.\n\n\n\n6.2 Initial Validation by Operations\n\nUpon receiving the request, Operations performs a basic validation to ensure that all required information is provided. This step is usually done manually by checking emails and attachments.\n\nCommon issues found during this stage:\n\nMissing registration documents\n\nIncomplete billing address\n\nNo estimated shipment volume provided\n\nUnclear payment terms\n\nWhen information is missing, Operations contacts Sales for clarification. This back-and-forth often happens over multiple emails.\n\n\n\n6.3 Credit Evaluation by Finance\n\nOnce the request is validated, it is forwarded to the Finance or Credit Control team for evaluation. The credit evaluation process may include:\n\nInternal credit history check (if existing customer in other countries)\n\nExternal credit bureau checks\n\nAssessment of requested credit limit versus shipment volume\n\nReview of financial documents\n\nBased on the evaluation, Finance decides whether the customer should be:\n\nApproved as a credit customer\n\nApproved with a lower credit limit\n\nApproved as cash-only\n\nRejected\n\nThis decision-making process is not always documented clearly.\n\n\n\n6.4 Approval Scenarios\n\n6.4.1 Credit Approved as Requested\n\nIf the credit request is approved:\n\nFinance confirms the approved credit limit and payment terms\n\nDetails are shared with Operations\n\nSystem setup can begin\n\n6.4.2 Credit Approved with Conditions\n\nSometimes credit is approved with conditions such as:\n\nReduced credit limit\n\nShorter payment terms\n\nPartial prepaid requirement\n\nThese conditions are communicated via email but not always captured in a structured format.\n\n6.4.3 Credit Rejected\n\nIf credit is rejected:\n\nCustomer may be offered cash-only terms\n\nSales is informed to manage customer expectations\n\nRequest may be closed or reworked\n\n\n\n6.5 System Setup\n\nAfter credit approval, the Operations and Finance teams proceed with system setup.\n\nTypical system activities include:\n\nCreating customer record in CRM\n\nCreating customer master data in SAP\n\nAssigning billing and operational roles\n\nConfiguring tax and invoicing parameters\n\nSystem setup errors are common due to manual data entry.\n\n\n\n6.6 Common System Setup Issues\n\nFrequently observed issues include:\n\nDuplicate customer records\n\nIncorrect billing currency\n\nWrong tax code assigned\n\nCredit limit mismatch between email approval and SAP setup\n\nWhen issues occur, tickets are raised to IT or Finance, causing delays.\n\n\n\n6.7 Confirmation to Stakeholders\n\nOnce setup is completed:\n\nOperations confirms readiness for shipment processing\n\nSales is informed that the customer is live\n\nFinance monitors the first few invoices closely\n\nThere is no standardized checklist to confirm all steps are completed before go-live.\n\n\n\n7. Exception Handling and Escalations\n\n7.1 Delayed Credit Approval\n\nIf credit approval takes more than 5 working days:\n\nOperations escalates to Finance Manager\n\nSales may request temporary cash terms to start operations\n\n\n\n7.2 Urgent Customer Go-Live Requests\n\nIn some cases, urgent onboarding is required. Temporary workarounds include:\n\nCash-only setup\n\nManual billing\n\nLater credit conversion\n\nThese practices increase operational risk.\n\n\n\n8. Risks and Known Gaps\n\nThe following issues have been identified:\n\nHeavy manual processing\n\nLack of standardized forms\n\nNo centralized tracking\n\nDependency on email communication\n\nLimited audit trail\n\nNew joiners often struggle to understand the process due to lack of clear documentation.\n\n\n\n9. Compliance and Audit Considerations\n\nImproper customer setup can lead to:\n\nRevenue leakage\n\nBad debt exposure\n\nCompliance violations\n\nAudit findings\n\nFinance periodically reviews customer credit exposure, but corrections are reactive rather than preventive.\n\n\n\n10. Training and Knowledge Sharing\n\nCurrently, training is conducted informally through:\n\nShadowing experienced staff\n\nEmail instructions\n\nChat-based guidance\n\nThis SOP is intended to evolve into a proper training reference.\n\n\n\n11. Summary\n\nThis SOP documents the current-state process for customer credit approval and onboarding. While it captures real operational practices, it lacks standardization, structure, and automation. The content should be transformed into a cleaner SOP, simplified checklist, and searchable Knowledge Base articles.\n\n\n\n",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T09:59:00.915Z"
+      }
+    ],
+    "createdAt": "2026-05-17T09:59:00.915Z",
+    "updatedAt": "2026-05-17T09:59:00.915Z"
+  },
+  {
+    "id": 1779012052843,
+    "title": "POD Upload Failed Due to Large File Size",
+    "category": "Document Upload Issue",
+    "tags": [
+      "POD",
+      "upload",
+      "file size"
+    ],
+    "creator": "Editor",
+    "status": "Published",
+    "rawText": "General Background\n\nIn DHL Logistics Operations, shipment exceptions happen daily due to multiple reasons such as missing information, system validation failures, incorrect routing, or customer-provided errors. These exceptions are usually picked up by the operations team either through system alerts, emails, or messages from supervisors. Because different teams handle exceptions differently, the steps documented here are inconsistent and sometimes incomplete.\n\nMost of the time, agents rely on chat messages, emails, or screenshots instead of a standardized SOP. This leads to delays, repeated mistakes, and inconsistent customer communication. The notes below come from MS Teams chats, emails, informal training notes, and system error screenshots.\n\n\n\n\n\nCommon Shipment Exception Types Observed\n\nBased on recent discussions and incidents, the most common shipment exception types include:\n\nInvalid routing code\n\nMissing or incorrect customer address\n\nIncorrect country or postcode mapping\n\nWeight or dimension mismatch\n\nDuplicate shipment reference\n\nSystem authorization errors\n\nPOD upload failures\n\nDifferent resolutions were applied by different agents, often without proper documentation.\n\n\n\n\n\n\n\n\n\nInformal Step-by-Step Notes \n\nWhen shipment exception appears, first check the exact error message.\n\nDo not immediately escalate to IT without basic checks.\n\nVerify customer address (postcode, city, country).\n\nConfirm weight and dimensions are realistic.\n\nRefresh booking screen and retry.\n\nIf still failing, take screenshot and escalate.\n\nNo official timeline or escalation matrix was included.\n\n\n\nKnown Gaps and Issues Identified\n\nNo single standardized SOP exists for shipment exceptions.\n\nResolution steps vary by agent and team.\n\nCritical steps are hidden in chat messages and emails.\n\nNew joiners rely heavily on experienced staff instead of documentation.\n\nRepeated errors occur because learnings are not captured formally.\n\n\n\n",
+    "symptoms": [
+      "POD upload fails.",
+      "System shows file size too large."
+    ],
+    "steps": [
+      "Compress the POD image before uploading.",
+      "Use JPEG format instead of PNG.",
+      "Upload the compressed file.",
+      "Refresh the screen twice after upload."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T10:00:52.843Z"
+      },
+      {
+        "status": "Published",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T12:28:17.470Z"
+      }
+    ],
+    "createdAt": "2026-05-17T10:00:52.843Z",
+    "updatedAt": "2026-05-17T12:28:17.470Z"
+  },
+  {
+    "id": 1779012504119,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Reviewed",
+    "rawText": "\n\nCustomer Credit Approval and New Customer Onboarding Process \nDocument Status: Draft (Unstandardized) \nBusiness Unit: DHL Logistics Operations \nProcess Owner: Operations & Finance \nLast Updated: Not maintained consistently \n \n1. Purpose \nThe purpose of this Standard Operating Procedure (SOP) is to document the end-to-end \nprocess for new customer onboarding with credit approval in DHL Logistics Operations. \nThis SOP aims to explain how new customers are set up in operational and financial \nsystems, how credit checks are conducted, and how approvals or rejections are handled. \nCurrently, this process is handled through a mix of emails, spreadsheets, informal \ninstructions, and experience-based knowledge. This document consolidates existing \npractices but has not been fully standardized. The intention is to later refine this SOP into a \nclean and official knowledge article. \n \n2. Scope \nThis SOP applies to: \n• Operations teams \n• Customer Service teams \n• Finance and Credit Control teams \n• Supervisors and Managers involved in customer onboarding \nThis SOP covers: \n• New customer request intake \n• Credit evaluation and approval \n• System setup \n• Communication with stakeholders \nIt does not cover customer contract negotiation or legal agreement signing. \n \n\n3. Definitions and Abbreviations \n• CRM – Customer Relationship Management system \n• SAP – Enterprise Resource Planning system used for billing and finance \n• Credit Limit – Maximum allowed outstanding amount for a customer \n• Cash Customer – Customer required to prepay before shipment \n• Credit Customer – Customer allowed to ship and pay later based on approved \ncredit terms \n \n4. Roles and Responsibilities \n4.1 Sales Team \n• Submit new customer onboarding request \n• Provide complete customer information \n• Support clarifications during credit review \n4.2 Operations Team \n• Validate onboarding request completeness \n• Coordinate with Finance for system setup \n• Ensure customer is ready for operational use \n4.3 Finance / Credit Control Team \n• Perform credit checks \n• Approve or reject credit requests \n• Set credit terms and limits in SAP \n4.4 Management \n• Approve exceptional cases \n• Resolve escalations and delays \n \n5. Process Overview \n\nThe new customer onboarding and credit approval process consists of the following high-\nlevel steps: \n1. New customer request received \n2. Initial validation of request \n3. Credit evaluation \n4. Approval or rejection decision \n5. System setup \n6. Confirmation to stakeholders \nDelays frequently occur due to incomplete information, unclear ownership, or delayed \napprovals. \n \n6. Detailed Process Steps \n \n6.1 New Customer Request Submission \nNew customer onboarding requests are typically initiated by the Sales team. Requests are \nsubmitted through email or shared templates. There is no single standardized form \ncurrently used across all regions. \nMinimum information required includes: \n• Legal company name \n• Company registration number \n• Billing address \n• Operational address (if different) \n• Estimated monthly volume \n• Requested credit limit \n• Requested payment terms (e.g., 30 days) \nSome requests arrive with missing or inconsistent information, which causes delays. \n \n\n6.2 Initial Validation by Operations \nUpon receiving the request, Operations performs a basic validation to ensure that all \nrequired information is provided. This step is usually done manually by checking emails \nand attachments. \nCommon issues found during this stage: \n• Missing registration documents \n• Incomplete billing address \n• No estimated shipment volume provided \n• Unclear payment terms \nWhen information is missing, Operations contacts Sales for clarification. This back-and-\nforth often happens over multiple emails. \n \n6.3 Credit Evaluation by Finance \nOnce the request is validated, it is forwarded to the Finance or Credit Control team for \nevaluation. The credit evaluation process may include: \n• Internal credit history check (if existing customer in other countries) \n• External credit bureau checks \n• Assessment of requested credit limit versus shipment volume \n• Review of financial documents \nBased on the evaluation, Finance decides whether the customer should be: \n• Approved as a credit customer \n• Approved with a lower credit limit \n• Approved as cash-only \n• Rejected \nThis decision-making process is not always documented clearly. \n \n6.4 Approval Scenarios \n\n6.4.1 Credit Approved as Requested \nIf the credit request is approved: \n• Finance confirms the approved credit limit and payment terms \n• Details are shared with Operations \n• System setup can begin \n6.4.2 Credit Approved with Conditions \nSometimes credit is approved with conditions such as: \n• Reduced credit limit \n• Shorter payment terms \n• Partial prepaid requirement \nThese conditions are communicated via email but not always captured in a structured \nformat. \n6.4.3 Credit Rejected \nIf credit is rejected: \n• Customer may be offered cash-only terms \n• Sales is informed to manage customer expectations \n• Request may be closed or reworked \n \n6.5 System Setup \nAfter credit approval, the Operations and Finance teams proceed with system setup. \nTypical system activities include: \n• Creating customer record in CRM \n• Creating customer master data in SAP \n• Assigning billing and operational roles \n• Configuring tax and invoicing parameters \nSystem setup errors are common due to manual data entry. \n\n \n6.6 Common System Setup Issues \nFrequently observed issues include: \n• Duplicate customer records \n• Incorrect billing currency \n• Wrong tax code assigned \n• Credit limit mismatch between email approval and SAP setup \nWhen issues occur, tickets are raised to IT or Finance, causing delays. \n \n6.7 Confirmation to Stakeholders \nOnce setup is completed: \n• Operations confirms readiness for shipment processing \n• Sales is informed that the customer is live \n• Finance monitors the first few invoices closely \nThere is no standardized checklist to confirm all steps are completed before go-live. \n \n7. Exception Handling and Escalations \n7.1 Delayed Credit Approval \nIf credit approval takes more than 5 working days: \n• Operations escalates to Finance Manager \n• Sales may request temporary cash terms to start operations \n \n7.2 Urgent Customer Go-Live Requests \nIn some cases, urgent onboarding is required. Temporary workarounds include: \n• Cash-only setup \n• Manual billing \n\n• Later credit conversion \nThese practices increase operational risk. \n \n8. Risks and Known Gaps \nThe following issues have been identified: \n• Heavy manual processing \n• Lack of standardized forms \n• No centralized tracking \n• Dependency on email communication \n• Limited audit trail \nNew joiners often struggle to understand the process due to lack of clear documentation. \n \n9. Compliance and Audit Considerations \nImproper customer setup can lead to: \n• Revenue leakage \n• Bad debt exposure \n• Compliance violations \n• Audit findings \nFinance periodically reviews customer credit exposure, but corrections are reactive rather \nthan preventive. \n \n10. Training and Knowledge Sharing \nCurrently, training is conducted informally through: \n• Shadowing experienced staff \n• Email instructions \n• Chat-based guidance \n\nThis SOP is intended to evolve into a proper training reference. \n \n11. Summary \nThis SOP documents the current-state process for customer credit approval and \nonboarding. While it captures real operational practices, it lacks standardization, structure, \nand automation. The content should be transformed into a cleaner SOP, simplified \nchecklist, and searchable Knowledge Base articles. \n ",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T10:08:24.119Z"
+      },
+      {
+        "status": "Reviewed",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T10:59:51.472Z"
+      }
+    ],
+    "createdAt": "2026-05-17T10:08:24.119Z",
+    "updatedAt": "2026-05-17T10:59:51.472Z"
+  },
+  {
+    "id": 1779029532368,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Customer address invalid.\r\nTeam chat says postcode missing.\r\nFix:\r\nAdd postcode manually,\r\nRevalidate address,\r\nSave and continue booking.",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T14:52:12.368Z"
+      }
+    ],
+    "createdAt": "2026-05-17T14:52:12.368Z",
+    "updatedAt": "2026-05-17T14:52:12.368Z"
+  },
+  {
+    "id": 1779030791934,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "\n\nCustomer Credit Approval and New Customer Onboarding Process \nDocument Status: Draft (Unstandardized) \nBusiness Unit: DHL Logistics Operations \nProcess Owner: Operations & Finance \nLast Updated: Not maintained consistently \n \n1. Purpose \nThe purpose of this Standard Operating Procedure (SOP) is to document the end-to-end \nprocess for new customer onboarding with credit approval in DHL Logistics Operations. \nThis SOP aims to explain how new customers are set up in operational and financial \nsystems, how credit checks are conducted, and how approvals or rejections are handled. \nCurrently, this process is handled through a mix of emails, spreadsheets, informal \ninstructions, and experience-based knowledge. This document consolidates existing \npractices but has not been fully standardized. The intention is to later refine this SOP into a \nclean and official knowledge article. \n \n2. Scope \nThis SOP applies to: \n• Operations teams \n• Customer Service teams \n• Finance and Credit Control teams \n• Supervisors and Managers involved in customer onboarding \nThis SOP covers: \n• New customer request intake \n• Credit evaluation and approval \n• System setup \n• Communication with stakeholders \nIt does not cover customer contract negotiation or legal agreement signing. \n \n\n3. Definitions and Abbreviations \n• CRM – Customer Relationship Management system \n• SAP – Enterprise Resource Planning system used for billing and finance \n• Credit Limit – Maximum allowed outstanding amount for a customer \n• Cash Customer – Customer required to prepay before shipment \n• Credit Customer – Customer allowed to ship and pay later based on approved \ncredit terms \n \n4. Roles and Responsibilities \n4.1 Sales Team \n• Submit new customer onboarding request \n• Provide complete customer information \n• Support clarifications during credit review \n4.2 Operations Team \n• Validate onboarding request completeness \n• Coordinate with Finance for system setup \n• Ensure customer is ready for operational use \n4.3 Finance / Credit Control Team \n• Perform credit checks \n• Approve or reject credit requests \n• Set credit terms and limits in SAP \n4.4 Management \n• Approve exceptional cases \n• Resolve escalations and delays \n \n5. Process Overview \n\nThe new customer onboarding and credit approval process consists of the following high-\nlevel steps: \n1. New customer request received \n2. Initial validation of request \n3. Credit evaluation \n4. Approval or rejection decision \n5. System setup \n6. Confirmation to stakeholders \nDelays frequently occur due to incomplete information, unclear ownership, or delayed \napprovals. \n \n6. Detailed Process Steps \n \n6.1 New Customer Request Submission \nNew customer onboarding requests are typically initiated by the Sales team. Requests are \nsubmitted through email or shared templates. There is no single standardized form \ncurrently used across all regions. \nMinimum information required includes: \n• Legal company name \n• Company registration number \n• Billing address \n• Operational address (if different) \n• Estimated monthly volume \n• Requested credit limit \n• Requested payment terms (e.g., 30 days) \nSome requests arrive with missing or inconsistent information, which causes delays. \n \n\n6.2 Initial Validation by Operations \nUpon receiving the request, Operations performs a basic validation to ensure that all \nrequired information is provided. This step is usually done manually by checking emails \nand attachments. \nCommon issues found during this stage: \n• Missing registration documents \n• Incomplete billing address \n• No estimated shipment volume provided \n• Unclear payment terms \nWhen information is missing, Operations contacts Sales for clarification. This back-and-\nforth often happens over multiple emails. \n \n6.3 Credit Evaluation by Finance \nOnce the request is validated, it is forwarded to the Finance or Credit Control team for \nevaluation. The credit evaluation process may include: \n• Internal credit history check (if existing customer in other countries) \n• External credit bureau checks \n• Assessment of requested credit limit versus shipment volume \n• Review of financial documents \nBased on the evaluation, Finance decides whether the customer should be: \n• Approved as a credit customer \n• Approved with a lower credit limit \n• Approved as cash-only \n• Rejected \nThis decision-making process is not always documented clearly. \n \n6.4 Approval Scenarios \n\n6.4.1 Credit Approved as Requested \nIf the credit request is approved: \n• Finance confirms the approved credit limit and payment terms \n• Details are shared with Operations \n• System setup can begin \n6.4.2 Credit Approved with Conditions \nSometimes credit is approved with conditions such as: \n• Reduced credit limit \n• Shorter payment terms \n• Partial prepaid requirement \nThese conditions are communicated via email but not always captured in a structured \nformat. \n6.4.3 Credit Rejected \nIf credit is rejected: \n• Customer may be offered cash-only terms \n• Sales is informed to manage customer expectations \n• Request may be closed or reworked \n \n6.5 System Setup \nAfter credit approval, the Operations and Finance teams proceed with system setup. \nTypical system activities include: \n• Creating customer record in CRM \n• Creating customer master data in SAP \n• Assigning billing and operational roles \n• Configuring tax and invoicing parameters \nSystem setup errors are common due to manual data entry. \n\n \n6.6 Common System Setup Issues \nFrequently observed issues include: \n• Duplicate customer records \n• Incorrect billing currency \n• Wrong tax code assigned \n• Credit limit mismatch between email approval and SAP setup \nWhen issues occur, tickets are raised to IT or Finance, causing delays. \n \n6.7 Confirmation to Stakeholders \nOnce setup is completed: \n• Operations confirms readiness for shipment processing \n• Sales is informed that the customer is live \n• Finance monitors the first few invoices closely \nThere is no standardized checklist to confirm all steps are completed before go-live. \n \n7. Exception Handling and Escalations \n7.1 Delayed Credit Approval \nIf credit approval takes more than 5 working days: \n• Operations escalates to Finance Manager \n• Sales may request temporary cash terms to start operations \n \n7.2 Urgent Customer Go-Live Requests \nIn some cases, urgent onboarding is required. Temporary workarounds include: \n• Cash-only setup \n• Manual billing \n\n• Later credit conversion \nThese practices increase operational risk. \n \n8. Risks and Known Gaps \nThe following issues have been identified: \n• Heavy manual processing \n• Lack of standardized forms \n• No centralized tracking \n• Dependency on email communication \n• Limited audit trail \nNew joiners often struggle to understand the process due to lack of clear documentation. \n \n9. Compliance and Audit Considerations \nImproper customer setup can lead to: \n• Revenue leakage \n• Bad debt exposure \n• Compliance violations \n• Audit findings \nFinance periodically reviews customer credit exposure, but corrections are reactive rather \nthan preventive. \n \n10. Training and Knowledge Sharing \nCurrently, training is conducted informally through: \n• Shadowing experienced staff \n• Email instructions \n• Chat-based guidance \n\nThis SOP is intended to evolve into a proper training reference. \n \n11. Summary \nThis SOP documents the current-state process for customer credit approval and \nonboarding. While it captures real operational practices, it lacks standardization, structure, \nand automation. The content should be transformed into a cleaner SOP, simplified \nchecklist, and searchable Knowledge Base articles. \n ",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T15:13:11.934Z"
+      }
+    ],
+    "createdAt": "2026-05-17T15:13:11.934Z",
+    "updatedAt": "2026-05-17T15:13:11.934Z"
+  },
+  {
+    "id": 1779030910975,
+    "title": "POD Upload Failed Due to Large File Size",
+    "category": "Document Upload Issue",
+    "tags": [
+      "POD",
+      "upload",
+      "file size"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "General Background\n\nIn DHL Logistics Operations, shipment exceptions happen daily due to multiple reasons such as missing information, system validation failures, incorrect routing, or customer-provided errors. These exceptions are usually picked up by the operations team either through system alerts, emails, or messages from supervisors. Because different teams handle exceptions differently, the steps documented here are inconsistent and sometimes incomplete.\n\nMost of the time, agents rely on chat messages, emails, or screenshots instead of a standardized SOP. This leads to delays, repeated mistakes, and inconsistent customer communication. The notes below come from MS Teams chats, emails, informal training notes, and system error screenshots.\n\n\n\n\n\nCommon Shipment Exception Types Observed\n\nBased on recent discussions and incidents, the most common shipment exception types include:\n\nInvalid routing code\n\nMissing or incorrect customer address\n\nIncorrect country or postcode mapping\n\nWeight or dimension mismatch\n\nDuplicate shipment reference\n\nSystem authorization errors\n\nPOD upload failures\n\nDifferent resolutions were applied by different agents, often without proper documentation.\n\n\n\n\n\n\n\n\n\nInformal Step-by-Step Notes \n\nWhen shipment exception appears, first check the exact error message.\n\nDo not immediately escalate to IT without basic checks.\n\nVerify customer address (postcode, city, country).\n\nConfirm weight and dimensions are realistic.\n\nRefresh booking screen and retry.\n\nIf still failing, take screenshot and escalate.\n\nNo official timeline or escalation matrix was included.\n\n\n\nKnown Gaps and Issues Identified\n\nNo single standardized SOP exists for shipment exceptions.\n\nResolution steps vary by agent and team.\n\nCritical steps are hidden in chat messages and emails.\n\nNew joiners rely heavily on experienced staff instead of documentation.\n\nRepeated errors occur because learnings are not captured formally.\n\n\n\n",
+    "symptoms": [
+      "POD upload fails.",
+      "System shows file size too large."
+    ],
+    "steps": [
+      "Compress the POD image before uploading.",
+      "Use JPEG format instead of PNG.",
+      "Upload the compressed file.",
+      "Refresh the screen twice after upload."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T15:15:10.975Z"
+      }
+    ],
+    "createdAt": "2026-05-17T15:15:10.976Z",
+    "updatedAt": "2026-05-17T15:15:10.976Z"
+  },
+  {
+    "id": 1779030949232,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Customer Credit Approval and New Customer Onboarding Process\n\nDocument Status: Draft (Unstandardized)Business Unit: DHL Logistics OperationsProcess Owner: Operations & FinanceLast Updated: Not maintained consistently\n\n\n\n1. Purpose\n\nThe purpose of this Standard Operating Procedure (SOP) is to document the end-to-end process for new customer onboarding with credit approval in DHL Logistics Operations. This SOP aims to explain how new customers are set up in operational and financial systems, how credit checks are conducted, and how approvals or rejections are handled.\n\nCurrently, this process is handled through a mix of emails, spreadsheets, informal instructions, and experience-based knowledge. This document consolidates existing practices but has not been fully standardized. The intention is to later refine this SOP into a clean and official knowledge article.\n\n\n\n2. Scope\n\nThis SOP applies to:\n\nOperations teams\n\nCustomer Service teams\n\nFinance and Credit Control teams\n\nSupervisors and Managers involved in customer onboarding\n\nThis SOP covers:\n\nNew customer request intake\n\nCredit evaluation and approval\n\nSystem setup\n\nCommunication with stakeholders\n\nIt does not cover customer contract negotiation or legal agreement signing.\n\n\n\n3. Definitions and Abbreviations\n\nCRM – Customer Relationship Management system\n\nSAP – Enterprise Resource Planning system used for billing and finance\n\nCredit Limit – Maximum allowed outstanding amount for a customer\n\nCash Customer – Customer required to prepay before shipment\n\nCredit Customer – Customer allowed to ship and pay later based on approved credit terms\n\n\n\n4. Roles and Responsibilities\n\n4.1 Sales Team\n\nSubmit new customer onboarding request\n\nProvide complete customer information\n\nSupport clarifications during credit review\n\n4.2 Operations Team\n\nValidate onboarding request completeness\n\nCoordinate with Finance for system setup\n\nEnsure customer is ready for operational use\n\n4.3 Finance / Credit Control Team\n\nPerform credit checks\n\nApprove or reject credit requests\n\nSet credit terms and limits in SAP\n\n4.4 Management\n\nApprove exceptional cases\n\nResolve escalations and delays\n\n\n\n5. Process Overview\n\nThe new customer onboarding and credit approval process consists of the following high-level steps:\n\nNew customer request received\n\nInitial validation of request\n\nCredit evaluation\n\nApproval or rejection decision\n\nSystem setup\n\nConfirmation to stakeholders\n\nDelays frequently occur due to incomplete information, unclear ownership, or delayed approvals.\n\n\n\n6. Detailed Process Steps\n\n\n\n6.1 New Customer Request Submission\n\nNew customer onboarding requests are typically initiated by the Sales team. Requests are submitted through email or shared templates. There is no single standardized form currently used across all regions.\n\nMinimum information required includes:\n\nLegal company name\n\nCompany registration number\n\nBilling address\n\nOperational address (if different)\n\nEstimated monthly volume\n\nRequested credit limit\n\nRequested payment terms (e.g., 30 days)\n\nSome requests arrive with missing or inconsistent information, which causes delays.\n\n\n\n6.2 Initial Validation by Operations\n\nUpon receiving the request, Operations performs a basic validation to ensure that all required information is provided. This step is usually done manually by checking emails and attachments.\n\nCommon issues found during this stage:\n\nMissing registration documents\n\nIncomplete billing address\n\nNo estimated shipment volume provided\n\nUnclear payment terms\n\nWhen information is missing, Operations contacts Sales for clarification. This back-and-forth often happens over multiple emails.\n\n\n\n6.3 Credit Evaluation by Finance\n\nOnce the request is validated, it is forwarded to the Finance or Credit Control team for evaluation. The credit evaluation process may include:\n\nInternal credit history check (if existing customer in other countries)\n\nExternal credit bureau checks\n\nAssessment of requested credit limit versus shipment volume\n\nReview of financial documents\n\nBased on the evaluation, Finance decides whether the customer should be:\n\nApproved as a credit customer\n\nApproved with a lower credit limit\n\nApproved as cash-only\n\nRejected\n\nThis decision-making process is not always documented clearly.\n\n\n\n6.4 Approval Scenarios\n\n6.4.1 Credit Approved as Requested\n\nIf the credit request is approved:\n\nFinance confirms the approved credit limit and payment terms\n\nDetails are shared with Operations\n\nSystem setup can begin\n\n6.4.2 Credit Approved with Conditions\n\nSometimes credit is approved with conditions such as:\n\nReduced credit limit\n\nShorter payment terms\n\nPartial prepaid requirement\n\nThese conditions are communicated via email but not always captured in a structured format.\n\n6.4.3 Credit Rejected\n\nIf credit is rejected:\n\nCustomer may be offered cash-only terms\n\nSales is informed to manage customer expectations\n\nRequest may be closed or reworked\n\n\n\n6.5 System Setup\n\nAfter credit approval, the Operations and Finance teams proceed with system setup.\n\nTypical system activities include:\n\nCreating customer record in CRM\n\nCreating customer master data in SAP\n\nAssigning billing and operational roles\n\nConfiguring tax and invoicing parameters\n\nSystem setup errors are common due to manual data entry.\n\n\n\n6.6 Common System Setup Issues\n\nFrequently observed issues include:\n\nDuplicate customer records\n\nIncorrect billing currency\n\nWrong tax code assigned\n\nCredit limit mismatch between email approval and SAP setup\n\nWhen issues occur, tickets are raised to IT or Finance, causing delays.\n\n\n\n6.7 Confirmation to Stakeholders\n\nOnce setup is completed:\n\nOperations confirms readiness for shipment processing\n\nSales is informed that the customer is live\n\nFinance monitors the first few invoices closely\n\nThere is no standardized checklist to confirm all steps are completed before go-live.\n\n\n\n7. Exception Handling and Escalations\n\n7.1 Delayed Credit Approval\n\nIf credit approval takes more than 5 working days:\n\nOperations escalates to Finance Manager\n\nSales may request temporary cash terms to start operations\n\n\n\n7.2 Urgent Customer Go-Live Requests\n\nIn some cases, urgent onboarding is required. Temporary workarounds include:\n\nCash-only setup\n\nManual billing\n\nLater credit conversion\n\nThese practices increase operational risk.\n\n\n\n8. Risks and Known Gaps\n\nThe following issues have been identified:\n\nHeavy manual processing\n\nLack of standardized forms\n\nNo centralized tracking\n\nDependency on email communication\n\nLimited audit trail\n\nNew joiners often struggle to understand the process due to lack of clear documentation.\n\n\n\n9. Compliance and Audit Considerations\n\nImproper customer setup can lead to:\n\nRevenue leakage\n\nBad debt exposure\n\nCompliance violations\n\nAudit findings\n\nFinance periodically reviews customer credit exposure, but corrections are reactive rather than preventive.\n\n\n\n10. Training and Knowledge Sharing\n\nCurrently, training is conducted informally through:\n\nShadowing experienced staff\n\nEmail instructions\n\nChat-based guidance\n\nThis SOP is intended to evolve into a proper training reference.\n\n\n\n11. Summary\n\nThis SOP documents the current-state process for customer credit approval and onboarding. While it captures real operational practices, it lacks standardization, structure, and automation. The content should be transformed into a cleaner SOP, simplified checklist, and searchable Knowledge Base articles.\n\n\n\n",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T15:15:49.232Z"
+      }
+    ],
+    "createdAt": "2026-05-17T15:15:49.232Z",
+    "updatedAt": "2026-05-17T15:15:49.232Z"
+  },
+  {
+    "id": 1779030995983,
+    "title": "POD Upload Failed Due to Large File Size",
+    "category": "Document Upload Issue",
+    "tags": [
+      "POD",
+      "upload",
+      "file size"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "POD upload failed again 😓\r\nError msg: “File size too large”\r\nJust compress the image before uploading.\r\nJPEG works better than PNG.\r\nAfter upload, refresh screen twice.",
+    "symptoms": [
+      "POD upload fails.",
+      "System shows file size too large."
+    ],
+    "steps": [
+      "Compress the POD image before uploading.",
+      "Use JPEG format instead of PNG.",
+      "Upload the compressed file.",
+      "Refresh the screen twice after upload."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T15:16:35.983Z"
+      }
+    ],
+    "createdAt": "2026-05-17T15:16:35.983Z",
+    "updatedAt": "2026-05-17T15:16:35.983Z"
+  },
+  {
+    "id": 1779031017729,
     "title": "New Staff System Access Setup",
     "category": "User Onboarding",
     "tags": [
@@ -259,43 +617,109 @@
       {
         "status": "Draft",
         "updatedBy": "Editor",
-        "updatedAt": "2026-05-17T03:54:26.129Z"
+        "updatedAt": "2026-05-17T15:16:57.729Z"
       }
     ],
-    "createdAt": "2026-05-17T03:54:26.129Z",
-    "updatedAt": "2026-05-17T03:54:26.129Z"
+    "createdAt": "2026-05-17T15:16:57.729Z",
+    "updatedAt": "2026-05-17T15:16:57.729Z"
   },
   {
-    "id": 1778990118896,
-    "title": "POD Upload Failed Due to Large File Size",
-    "category": "Document Upload Issue",
+    "id": 1779031042214,
+    "title": "Label Not Printing Properly",
+    "category": "Printer Issue",
     "tags": [
-      "POD",
-      "upload",
-      "file size"
+      "label",
+      "printer",
+      "toner"
     ],
     "creator": "Editor",
     "status": "Draft",
-    "rawText": "POD upload failed again 😓\r\nError msg: “File size too large”\r\nJust compress the image before uploading.\r\nJPEG works better than PNG.\r\nAfter upload, refresh screen twice.",
+    "rawText": "Label not printing properly.\r\nUsually printer cache issue.\r\nRestart printer service,\r\nClear queue,\r\nReprint label.\r\nIf still blur, change toner.",
     "symptoms": [
-      "POD upload fails.",
-      "System shows file size too large."
+      "Shipping label does not print correctly.",
+      "Printed label is blurred or incomplete."
     ],
     "steps": [
-      "Compress the POD image before uploading.",
-      "Use JPEG format instead of PNG.",
-      "Upload the compressed file.",
-      "Refresh the screen twice after upload."
+      "Restart the printer service.",
+      "Clear the printer queue.",
+      "Reprint the label.",
+      "If the label is still blurred, replace the toner."
     ],
     "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
     "history": [
       {
         "status": "Draft",
         "updatedBy": "Editor",
-        "updatedAt": "2026-05-17T03:55:18.896Z"
+        "updatedAt": "2026-05-17T15:17:22.214Z"
       }
     ],
-    "createdAt": "2026-05-17T03:55:18.896Z",
-    "updatedAt": "2026-05-17T03:55:18.896Z"
+    "createdAt": "2026-05-17T15:17:22.214Z",
+    "updatedAt": "2026-05-17T15:17:22.214Z"
+  },
+  {
+    "id": 1779031069693,
+    "title": "AUTH_401 - User Not Authorized to Access Module",
+    "category": "System Access Issue",
+    "tags": [
+      "AUTH_401",
+      "access",
+      "AD group"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Error Code: AUTH_401\r\nUser not authorized to access module.\r\nResolution:\r\n- Check AD group access\r\n- User must be in OPS_FWD_ROLE\r\n- Logout and login again",
+    "symptoms": [
+      "User cannot access the required system module.",
+      "System displays AUTH_401 or unauthorized access error."
+    ],
+    "steps": [
+      "Check the user's AD group access.",
+      "Confirm the user is assigned to OPS_FWD_ROLE.",
+      "Ask the user to logout and login again.",
+      "Retry accessing the module."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T15:17:49.693Z"
+      }
+    ],
+    "createdAt": "2026-05-17T15:17:49.693Z",
+    "updatedAt": "2026-05-17T15:17:49.693Z"
+  },
+  {
+    "id": 1779031101106,
+    "title": "Customer Address Invalid Due to Missing Postcode",
+    "category": "Booking Validation Issue",
+    "tags": [
+      "address",
+      "postcode",
+      "booking"
+    ],
+    "creator": "Editor",
+    "status": "Draft",
+    "rawText": "Customer address invalid.\r\nTeam chat says postcode missing.\r\nFix:\r\nAdd postcode manually,\r\nRevalidate address,\r\nSave and continue booking.",
+    "symptoms": [
+      "Customer address validation fails.",
+      "Postcode is missing or incorrect."
+    ],
+    "steps": [
+      "Add the postcode manually.",
+      "Revalidate the customer address.",
+      "Save the updated address.",
+      "Continue the booking process."
+    ],
+    "escalation": "Escalate to supervisor or IT support if the issue is not resolved.",
+    "history": [
+      {
+        "status": "Draft",
+        "updatedBy": "Editor",
+        "updatedAt": "2026-05-17T15:18:21.106Z"
+      }
+    ],
+    "createdAt": "2026-05-17T15:18:21.106Z",
+    "updatedAt": "2026-05-17T15:18:21.106Z"
   }
 ]
